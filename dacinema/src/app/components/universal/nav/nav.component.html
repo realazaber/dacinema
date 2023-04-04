@@ -1,1 +1,13 @@
-<p>nav works!</p>
+<nav class="flex phone:flex-row h-24 p-3 justify-between items-center">
+  <div>
+    <app-logo [width]="48"></app-logo>
+  </div>
+  <div class="flex flex-row gap-3">
+    <a routerLink="/about">About</a>
+    <a routerLink="/movies">Movies</a>
+    <a class="text-pri hover:text-yellow-500" routerLink="/mymovies"
+      >My Movies</a
+    >
+    <a routerLink="/contact">Contact</a>
+  </div>
+</nav>
