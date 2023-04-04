@@ -3,8 +3,17 @@
 @tailwind utilities;
 
 @layer components {
+
+  * {
+    @apply duration-300;
+  }
+
   body {
     @apply text-slate-50;
+
+    a {
+      @apply hover:text-gray-300;
+    }
 
     .btn {
 
@@ -13,5 +22,6 @@
     .btn-sec {
 
     }
+
   }
 }
