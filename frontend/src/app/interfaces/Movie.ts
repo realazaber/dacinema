@@ -1,10 +1,9 @@
 export interface Movie {
-  id: number;
+  imbdid: number;
   title: string;
+  rating: number;
   description: string;
   posterImgPath: string;
   category: string;
-  director: string;
-  castMembers: string[];
   dateReleased: Date;
 }
