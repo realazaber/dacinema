@@ -5,7 +5,7 @@
 @layer components {
 
   ::selection {
-    @apply text-white bg-pri;
+    @apply text-white bg-pri text-sec;
   }
 
 
@@ -14,7 +14,7 @@
   }
 
   body {
-    @apply text-slate-50;
+    @apply text-slate-50 overflow-y-scroll scrollbar-thin scrollbar-thumb-thir scrollbar-track-gray-300;
 
     a {
       @apply hover:text-gray-300;
@@ -23,7 +23,7 @@
     form {
 
       input, textarea {
-        @apply bg-slate-800 text-pri p-3 focus:border-[3px] border-pri;
+        @apply bg-sec text-pri p-3 focus:border-[3px] border-pri;
       }
 
       label {
@@ -60,11 +60,11 @@
     }
 
     .btn {
-      @apply text-white bg-[#ccb145] border-none;
+      @apply text-white bg-thir border-none;
     }
 
     .btn-sec {
-      @apply text-[#ccb145] border-[#ccb145];
+      @apply text-thir border-thir;
     }
 
   }
