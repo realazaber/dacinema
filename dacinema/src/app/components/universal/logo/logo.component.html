@@ -2,6 +2,8 @@
   <img
     src="/assets/images/universal/logo.webp"
     alt="Logo"
-    class="w-{{ width }} object-contain"
+    [style.width.rem]="width"
+    [style.height.rem]="height"
+    class="object-contain"
   />
 </a>

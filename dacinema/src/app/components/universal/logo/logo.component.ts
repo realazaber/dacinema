@@ -6,5 +6,6 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./logo.component.scss']
 })
 export class LogoComponent {
-  @Input() width: number = 24;
+  @Input() width: number = 32;
+  @Input() height: number = 24;
 }
