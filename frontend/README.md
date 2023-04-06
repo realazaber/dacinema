@@ -1,0 +1,28 @@
+Welcome to Dacinema - your ultimate destination for discovering new movies!
+Our platform is designed to make it easy and enjoyable for you to search for
+movies, create lists of your favorite films, and find inspiration for your
+next movie night.
+
+We understand that choosing the right movie can be a challenge, which is why
+we've created a user-friendly interface with features like spin the wheel to
+make decision making easier.
+
+Once you've found a movie you love, you can save it to your list for
+safekeeping, so you can easily keep track of your favorite movies.
+
+If you are feeling indecisive about what to watch next? Our fun "Spin the
+Wheel" feature can help you choose based on what you selected before and take
+the pressure off of making a decision.
+
+At Dacinema, we believe that everyone has their own preferred way of watching
+movies. While we don't offer streaming or downloading directly on our site, we
+give you the freedom to choose how you want to watch your movies. You can save
+your movie list and decide how to access them later. We're committed to
+providing you with a high-quality and reliable platform, and we're constantly
+updating our website with new features and improvements.
+
+Your privacy and security are important to us, which is why no data is ever
+saved onto our servers.
+Thank you for choosing Dacinema as your go-to movie website. We're passionate
+about helping you discover your next favorite movie and look forward to
+continuing to be your destination for all things cinema!
