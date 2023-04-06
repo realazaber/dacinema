@@ -4,6 +4,11 @@
 
 @layer components {
 
+  ::selection {
+    @apply text-white bg-pri;
+  }
+
+
   * {
     @apply duration-300;
   }
