@@ -10,7 +10,7 @@
 
 
   * {
-    @apply duration-300;
+    @apply duration-300 scroll-smooth;
   }
 
   body {
@@ -20,12 +20,51 @@
       @apply hover:text-gray-300;
     }
 
-    .btn {
+    form {
 
+      input, textarea {
+        @apply bg-slate-800 text-pri p-3 focus:border-[3px] border-pri;
+      }
+
+      label {
+        @apply mt-2 mb-1;
+      }
+
+      .col, .row {
+        @apply flex flex-col;
+      }
+
+      .col {
+        @apply w-1/2;
+      }
+
+      .row {
+        @apply gap-3 phone:flex-row w-full;
+      }
+    }
+
+    h1 {
+      @apply text-3xl;
+    }
+
+    p {
+      @apply text-lg;
+    }
+
+    span {
+      @apply font-extrabold text-pri;
+    }
+
+    .btn, .btn-sec {
+      @apply border-2 rounded-sm p-3 hover:cursor-pointer;
+    }
+
+    .btn {
+      @apply text-white bg-[#ccb145] border-none;
     }
 
     .btn-sec {
-
+      @apply text-[#ccb145] border-[#ccb145];
     }
 
   }

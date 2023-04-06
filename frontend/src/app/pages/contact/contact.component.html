@@ -1,1 +1,38 @@
-<p>contact works!</p>
+<div class="flex flex-col">
+  <h1 class="my-3">Contact us</h1>
+  <p>
+    We greatly appreciate feedback from our users, as it helps us to
+    continuously improve and enhance our platform. Whether you have suggestions,
+    comments or questions, we are always here to listen and respond promptly.
+  </p>
+
+  <form
+    action="https://formspree.io/f/mpzeyvvw"
+    method="POST"
+    class="flex flex-col"
+  >
+    <div class="row">
+      <div class="col">
+        <label for="fname">First name: <span>*</span></label>
+        <input type="text" name="fname" required />
+      </div>
+      <div class="col">
+        <label for="lname">Last name: <span>*</span></label>
+        <input type="text" name="lname" required />
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <label for="email">Email: <span>*</span></label>
+        <input type="email" name="email" required />
+      </div>
+      <div class="col">
+        <label for="phone">Phone: </label>
+        <input type="number" name="phone" />
+      </div>
+    </div>
+    <label for="message">Message: <span>*</span></label>
+    <textarea cols="30" rows="10" name="message" required></textarea>
+    <input type="submit" class="btn-sec mt-3" />
+  </form>
+</div>
