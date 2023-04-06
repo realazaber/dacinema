@@ -9,7 +9,6 @@ class MoviesController extends Controller
 {
     public function index()
     {
-
         $response = Http::withHeaders([
             'X-RapidAPI-Key' => env('API_KEY'),
             'X-RapidAPI-Host' => 'ott-details.p.rapidapi.com'
@@ -17,7 +16,6 @@ class MoviesController extends Controller
             'language' => 'english',
             'type' => 'movie',
             'sort' => 'latest',
-            'page' => '1'
         ]);
 
         return response()->json($response->json());
